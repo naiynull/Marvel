@@ -6,7 +6,12 @@ export const styles = StyleSheet.create({
 Image: {
     justifyContent: 'center',
     alignItems: 'center',
+    flex: 1,
 },
 
+ball:{
+    flexDirection: "row",
+  
+}
 
 });
