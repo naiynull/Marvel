@@ -5,7 +5,7 @@ import { styles } from "../../screens/Home/styles";
 import { Ipagina } from "../../../App";
 import { ButtonPage } from "../../components/button";
 
-export function Comics({ setpageI }: Ipagina) {
+export function Geral({ setpageI }: Ipagina) {
     return (
         <View style={styles.ball}>
         <ButtonPage onPrsseI={() => setpageI(1)} />
