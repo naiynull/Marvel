@@ -11,28 +11,12 @@ Image: {
 
 ball:{
     padding: 10,
-
     flexDirection: "row",
   
 },
-Tam:{
-   padding: 15,
- 
- 
-},
 Text: {
-    color: colors.preto,
-    fontWeight: 'bold',
-    textAlign: "justify"
+    textShadowColor: colors.branco,
 
-
-},
-Titulo:{
- fontSize: 40,
- fontWeight: 'bold',
- color: colors.preto,
- 
-},
-
+}
 
 });

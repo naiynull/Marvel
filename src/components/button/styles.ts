@@ -6,10 +6,11 @@ export const styles = StyleSheet.create({
 
         width: 30,
         height:30,
-        backgroundColor: colors.branco,
+        backgroundColor: colors.preto,
         borderRadius: 15,
         borderWidth: 0,
         borderBlockColor: colors.preto,
+        margin: 17,
         
       
     },

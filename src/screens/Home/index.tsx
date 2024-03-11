@@ -6,13 +6,12 @@ import { Ipagina } from "../../../App";
 import { ButtonPage } from "../../components/button";
 
 export function Home({ setpageI }: Ipagina) {
-    const home = require('../../assets/home.png')
+    const home = require('../../assets/home.jpg')
     const marvel = require('../../assets/Marvel.png')
     return (
         <ImageBackground source={home} style={styleContainer.container}>
             <View style={styles.Image}>
-                <Image source={marvel}>
-                </Image>
+                
             </View>
             <View style={styles.ball}>
             <ButtonPage onPrsseI={() => setpageI(1)} />

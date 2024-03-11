@@ -1,7 +1,7 @@
 import React from "react";
 import { ImageBackground, Image, View } from "react-native";
 import { styleContainer } from "../../styles/globalstyle";
-import { styles } from "../../screens/Home/styles";
+import { styles } from "../../screens/login/styles";
 import { Ipagina } from "../../../App";
 import { ButtonPage } from "../../components/button";
 
