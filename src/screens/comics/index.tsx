@@ -22,6 +22,11 @@ export function Comics({ setpageI }: Ipagina) {
                 No entanto, sua abordagem violenta pode custar-lhe a aceitação que tanto deseja, enquanto ele enfrenta dilemas morais e suas próprias ambições.
                 </Text>
             </View>
+            <View style={styles.espaco}>
+            <Text style={styles.botao}>
+            Explore
+            </Text>
+            </View>
             </View>
             <View style={styles.ball}>
                 <ButtonPage onPrsseI={() => setpageI(1)} />
