@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { colors } from "../../styles/globalstyle";
+import { Colors } from "react-native/Libraries/NewAppScreen";
 
 export const styles = StyleSheet.create({
 
@@ -10,13 +10,8 @@ Image: {
 },
 
 ball:{
-    padding: 10,
     flexDirection: "row",
   
-},
-Text: {
-    textShadowColor: colors.branco,
-
 }
 
-});
+});;
